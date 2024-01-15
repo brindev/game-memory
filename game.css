@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dfecf9;
+}
+
+.container {
+  margin: 0 auto;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.header {
+  margin: 25px 0 15px 0;
+}
+
+#mem-game-container ul {
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+#mem-game-container li {
+  display: inline-block;
+  margin: 5px;
+}
+
+#mem-game-container .mem-slot {
+  display: block;
+  width: 40px;
+  height: 40px;
+  cursor: grab;
+}
+
+#mem-game-container img {
+  width: 40px;
+  height: 40px;
+}
+
+#mem-game-info {
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-size: 12px;
+}
+
+#mem-game-info span.restart {
+  font-weight: bold;
+  text-decoration: undelined;
+  cursor: pointer;
+}
+
+.matched {
+  cursor: default !important;
+}
