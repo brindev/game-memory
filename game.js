@@ -44,7 +44,7 @@ const setGame = () => {
       i + 1
     }" onclick="cardSelection(${i + 1},${gameArr[i]});return false;"><img id="${
       i + 1
-    }" class="shadow" src="./images/cardback.png" /></div></li>`;
+    }" class="shadow" src="./images/cardback.png" alt="peg" /></div></li>`;
     if (cols === 4) {
       cardGrid += "</ul>";
       cols = 0;
